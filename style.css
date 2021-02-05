@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+.hidden {
+    display: none;
+}
+
 header{
     font-size: 26px;
     background-image: linear-gradient(rgb(170, 53, 53),red);
@@ -15,11 +19,12 @@ header{
     display: flex;
     justify-content: space-between;
     width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto;  
 
 }
 .card-head{
     border-style: solid;
+    border-radius: 10px 10px 0px 0px;
 }
 .card p{
     padding-left: 15px;
@@ -44,4 +49,21 @@ header{
 }
 .card-6{
     flex: 1 1 200px;
+}
+
+.celebrities {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.celeb {
+    
+    
+}
+
+.abe {
+    wi
+    background-image: "images/Abe.png";
 }
