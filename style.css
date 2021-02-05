@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+
+header{
+    font-size: 26px;
+    background-image: linear-gradient(rgb(170, 53, 53),red);
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    color:whitesmoke;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.card-head{
+    border-style: solid;
+}
+.card p{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+}
+.card{
+    text-align: center;
+    flex: 1 1 200px;
+}
+.card-2{
+    flex: 1 1 200px;
+}
+.-card-3{
+    flex: 1 1 200px;
+}
+.card-4{
+    flex: 1 1 200px;
+}
+.card-5{
+    flex: 1 1 200px;
+}
+.card-6{
+    flex: 1 1 200px;
+}
